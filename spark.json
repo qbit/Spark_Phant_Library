@@ -1,0 +1,7 @@
+{
+"name": "Spark Phant Library",
+"author": "Jim Lindblom <jim@sparkfun.com>",
+"license": "Beerware",
+"version": "0.1",
+"description": "A simple library for the Spark Photon that generates Phant posts, gets, deletes and more."
+}
