@@ -1,4 +1,4 @@
-#include "Phant.h"
+#include "SparkFun-Spark-Phant.h"
 
 const char server[] = "data.sparkfun.com";
 const char publicKey[] = "DJjNowwjgxFR9ogvr45Q";

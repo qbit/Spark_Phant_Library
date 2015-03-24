@@ -19,7 +19,7 @@
  *
  */
 
-#include "Phant.h"
+#include "SparkFun-Spark-Phant.h"
 #include <stdlib.h>
 
 Phant::Phant(String host, String publicKey, String privateKey) {
