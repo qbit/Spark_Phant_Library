@@ -22,12 +22,10 @@
 	Distributed as-is; no warranty is given. 
 */
 // Include the library:
-#include "SparkFun-Spark-Phant/SparkFun-Spark-Phant.h"
+#include "homestead_store.h"
 
 const char server[] = "data.sparkfun.com"; // Phant destination server
-const char publicKey[] = "DJjNowwjgxFR9ogvr45Q"; // Phant public key
-const char privateKey[] = "P4eKwGGek5tJVz9Ar84n"; // Phant private key
-Phant phant(server, publicKey, privateKey); // Create a Phant object
+Phant phant(server); // Create a Phant object
 
 const int POST_RATE = 30000; // Time between posts, in ms.
 unsigned long lastPost = 0; // global variable to keep track of last post time
