@@ -90,7 +90,7 @@ String HomeStead::queryString() {
 String HomeStead::post() {
 
 	String params = _params.substring(1);
-	String result = "POST /data/store" + _pub + ".txt HTTP/1.1\n";
+	String result = "POST /data/store/ HTTP/1.1\n";
 	result += "Host: " + _host + "\n";
 	result += "Connection: close\n";
 	result += "Content-Type: application/x-www-form-urlencoded\n";
